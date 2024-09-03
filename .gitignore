@@ -1,6 +1,4 @@
-#
 # JARs aren't checked in, they are fetched by sbt
-#
 /lib/*.jar
 /test/files/codelib/*.jar
 /test/files/lib/*.jar
@@ -57,4 +55,14 @@ project/**/metals.sbt
 
 .bsp
 
-**/.DS_Store
+# OS generated files
+.DS_Store
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Virtual machine crash logs
+hs_err_pid*
